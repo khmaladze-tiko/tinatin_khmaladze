@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../Header/logo";
 import Language from "../Header/language";
-import { Icons } from "../icons";
+import { Icons } from "../Icons";
 
 const FooterBottom = () => {
     return(
