@@ -99,13 +99,119 @@ body {
 
 
 
+/* Body */
+
+.body {
+  height: 500px;
+}
 
 
 
+/* Footer */
 
 
+.footer {
+  padding: 0 47px;
+  justify-content: space-around;
+}
+.footer-top {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+ 
+}
+.footer-bottom {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+  border-top: 1px solid #e0e0e0;
+  color: #555F62;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 45px;
+}
+.footer-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.contact-us {
+  display: flex;
+}
+.footer-li {
+  color:#555F62;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 25px;
+}
+.footer-li :hover {
+  color:#182cc0;
+}
+.footer-ul {
+  margin: 24px 0;
+}
+.footer-products {
+  grid-column: 1;
+}
+.contact-us p {
+  padding-left: 10px;
+}
 
+.follow-ul {
+  margin: 24px 0;
+  display: flex;
+}
+.follow-ul li a{
+  padding: 5px 0;
+}
 
+.footer-lifestyle {
+  grid-column: 2;
+}
+
+.footer-concept {
+  grid-column: 3;
+}
+
+.footer-contact {
+  grid-column: 4;
+}
+
+.column-text {
+  font-weight: 700;
+  color:#141719;
+}
+.follow-ul li {
+  padding: 10px;
+  color: #555F62;
+}
+.follow-ul :hover {
+  border: 1px solid #aebabe;
+  border-radius: 20%;
+
+}
+.footer-logo {
+  display: flex;
+}
+.footer-logo p {
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-left: 10px;
+  text-align: center;
+}
+.footer-policy a{
+  font-size: 12px;
+  padding-left: 20px;
+}
+.footer-policy-a {
+  color:#555F62;
+}
+.footer-policy-a :hover {
+  color: #182cc0;
+}
 
 
 
