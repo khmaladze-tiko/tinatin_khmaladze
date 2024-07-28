@@ -1,10 +1,7 @@
 "use client"
 import React, { useState } from "react";
-import Products from "./products";
-import Offers from "./offers";
-import ConceptSpace from "./conceps-space";
 import Dropdown from "./dropdown";
-import Image from 'next/image';
+
 
 const Navbar = () => {
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
