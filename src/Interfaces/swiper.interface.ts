@@ -1,4 +1,4 @@
-export interface SwiperOption {
+export interface SwiperItem {
     id: number;
     title: string;
     description: string;

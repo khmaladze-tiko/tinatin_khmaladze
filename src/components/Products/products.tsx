@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
-import { ProductSwiperOption } from '@/Interfaces/productswiper.interface';
+import { SwiperItem } from '@/Interfaces/swiper.interface';
 
 type ProductSwiperProps = {
-    options: ProductSwiperOption[];
+    options: SwiperItem[];
 }
 
 const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
@@ -26,6 +26,17 @@ const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
                 }}
                 modules={[Scrollbar, Navigation, Pagination]}
                 className="offer-swiper"
+                breakpoints={{
+                    1000: {
+                        slidesPerView: 2.5
+                    },
+                    700: {
+                        slidesPerView: 2
+                    },
+                    300: {
+                        slidesPerView: 1
+                    }
+                }}
             >
                 {options.map(product => (
                     <SwiperSlide key={product.id} className="offer-slide">

@@ -1,19 +1,19 @@
 import React from "react";
-import { SwiperOption } from "@/Interfaces/swiper.interface";
-import SwiperComponent from "../Swiper/swiper";
-import ProductSwiperComponent from "../ProductSwiper/productSwiper";
-import { ProductSwiperOption } from "@/Interfaces/productswiper.interface";
+import { Product } from "@/Interfaces/products.interface";
 import ConceptSection from "./conceptSection";
 import PackageSection from "./package";
 import StatisticSection from "./statistic";
 import PrivateSection from "./private";
 import DigitalBankSection from "./digitalBank";
-import AwardsSwiperComponent from "../AwardsSwiper/awardsSwiper";
-import { AwardsSwiperOption } from "@/Interfaces/awardsswiper.interface";
+import Awards from "../Awards/awards";
+import { Award } from "@/Interfaces/awards.interface";
+import Offers from "../Offers/offers";
+import Products from "../Products/products";
+import { Offer } from "@/Interfaces/offers.interface";
 
 
 
-const products: ProductSwiperOption[] = [
+const products: Product[] = [
   {
     id: 1,
     title: "Digital",
@@ -37,7 +37,7 @@ const products: ProductSwiperOption[] = [
   },
 ];
 
-const offers: SwiperOption[] = [
+const offers: Offer[] = [
   {
     id: 1,
     title: "JAZZ FESTIVAL OFFERS",
@@ -69,7 +69,7 @@ const offers: SwiperOption[] = [
     img: "images/swiper5.png", // Replace with actual image path
   },
 ];
-const awards: AwardsSwiperOption[] = [
+const awards: Award[] = [
   {
     id: 1,
     title: "The Best Private Banking Service 2024",
@@ -102,11 +102,11 @@ const Main = () => {
       <ConceptSection/>
       <PackageSection/>
       <StatisticSection/>
-      <SwiperComponent options={offers} />
+      <Offers options={offers} />
       <DigitalBankSection/>
-      <ProductSwiperComponent options={products} />
+      <Products options={products} />
       <PrivateSection/>
-      <AwardsSwiperComponent options={awards} />
+      <Awards options={awards} />
     </div>
   );
 };

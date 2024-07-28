@@ -2,7 +2,11 @@
     padding-top: 60px;
     height: 614px;
 }
-
+@media screen and (max-width: 479px) {
+    .package-sec {
+        width: 440px;
+    }
+}
 
 
 .package-title {
@@ -15,6 +19,14 @@
 .package-flex {
     display: flex;
 }
+@media screen and (max-width: 479px) {
+    .package-flex {
+        max-width: 440px;
+        display: flex;
+    }
+}
+
+
 .package-digital {
     border-radius:4%;
     background-image: url('https://static.tbcconcept.ge/mobile/media/mfvvitla.0j5430128849_7213815365374065_9017687812435872577_n.png');
@@ -26,6 +38,14 @@
     justify-content: center;
     margin: 10px 10px;
 }
+
+@media screen and (max-width: 479px) {
+    .package-digital {
+        height: 210px;
+        width: 440px;
+    }
+}
+
 .package-premium {
     border-radius:4%;
     background-image: url('https://static.tbcconcept.ge/mobile/media/0m25n3qt.w03prem.png');
@@ -38,6 +58,12 @@
     margin: 30px 10px;
 }
 
+@media screen and (max-width: 479px) {
+    .package-premium {
+        height: 210px;
+        width: 440px;
+    }
+}
 .package-last {
     border-radius:4%;
     background-image: url('https://static.tbcconcept.ge/mobile/media/nqeaa1rb.avl360.png');
@@ -49,11 +75,18 @@
     justify-content: center;
     margin: 10px 20px;
 }
-
+@media screen and (max-width: 479px) {
+    .package-last {
+        height: 210px;
+        width: 440px;
+        display: none;
+    }
+}
 .package-content {
     padding: 40px;
     justify-content: end;
 }
+
 .package-content h3 {
     color: #ffffff;
     font-size: 34px;

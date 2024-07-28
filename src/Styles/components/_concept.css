@@ -8,7 +8,11 @@
     margin-left: auto;
 }
 
-
+@media screen and (max-width: 479px) {
+    .main {
+        max-width: 478px;
+    }
+}
 
 .background-img {
     background-image: url('https://static.tbcconcept.ge/desktop/media/ze324k50.yq4Become-2.webp');
@@ -19,6 +23,14 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 479px) {
+    .background-img {
+        width: 460px;
+    }
+}
+
+
 .background-content {
     padding: 80px;
 }
@@ -54,9 +66,18 @@
     justify-content: center;
     align-items:center;
 }
+
+@media screen and (max-width: 479px) {
+    .concept-sec {
+        width: 460px;
+    }
+}
+
 .concept-sec h2 {
     padding-bottom: 50px;
 }
+
+
 .concept-text {
     margin-top: 100px;
     font-size: 32px;
@@ -65,3 +86,14 @@
     justify-content: center;
     align-items:center
 }
+
+@media screen and (max-width: 479px) {
+    .concept-text h2 {
+    font-size: 26px;
+    padding-left: 5px;
+    }
+}
+
+
+
+

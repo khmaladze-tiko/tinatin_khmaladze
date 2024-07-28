@@ -8,7 +8,7 @@ const PackageSection = () => {
         <h2>Select a Package</h2>
       </div>
       <div className="package-flex">
-        <div>
+        <div className="package-cards">
           <div className="package-digital">
             <div className="package-content">
                 <h3 >Digital</h3>

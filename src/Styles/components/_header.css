@@ -326,9 +326,9 @@
   
   z-index: 102;
   background-color: #f9fafa;
-  padding-top: 80px;
+  padding-top: 0;
   position: fixed;
-  top: 0;
+  top: 80px;
   bottom: 0;
   right: 0;
   left: 0;

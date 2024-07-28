@@ -54,6 +54,11 @@
     justify-content: center;
     align-items:center;
 }
+@media screen and (max-width: 479px) {
+    .private-sec {
+        width: 460px;
+    }
+}
 .private-sec h2 {
     padding-bottom: 50px;
 }

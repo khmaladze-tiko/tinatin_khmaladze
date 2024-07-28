@@ -7,13 +7,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
-import { SwiperOption } from '@/Interfaces/swiper.interface';
+import { SwiperItem } from '@/Interfaces/swiper.interface';
 
-type SwiperProps = {
-    options: SwiperOption[];
+type OffersProps = {
+    options: SwiperItem[];
 }
 
-const SwiperComponent: FC<SwiperProps> = ({ options }) => {
+const Offers: FC<OffersProps> = ({ options }) => {
     return (
         <section className="offers-section">
             <h2>Offers</h2>
@@ -26,6 +26,17 @@ const SwiperComponent: FC<SwiperProps> = ({ options }) => {
                 }}
                 modules={[Scrollbar, Navigation, Pagination]}
                 className="offers-swiper"
+                breakpoints={{
+                    1000: {
+                        slidesPerView: 2.5
+                    },
+                    700: {
+                        slidesPerView: 2
+                    },
+                    300: {
+                        slidesPerView: 1
+                    }
+                }}
             >
                 {options.map(offer => (
                     <SwiperSlide key={offer.id} className="offer-slide">
@@ -41,4 +52,4 @@ const SwiperComponent: FC<SwiperProps> = ({ options }) => {
     );
 };
 
-export default SwiperComponent;
+export default Offers;

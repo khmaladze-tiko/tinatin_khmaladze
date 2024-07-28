@@ -7,13 +7,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
-import { AwardsSwiperOption } from '@/Interfaces/awardsswiper.interface';
+import { SwiperItem } from '@/Interfaces/swiper.interface';
 
-type AwardsSwiperProps = {
-    options: AwardsSwiperOption[];
+type Awards = {
+    options: SwiperItem[];
 }
 
-const AwardsSwiperComponent: FC<AwardsSwiperProps> = ({ options }) => {
+const Awards: FC<Awards> = ({ options }) => {
     return (
         <section className="awards-section">
             <h2>Awards</h2>
@@ -26,6 +26,17 @@ const AwardsSwiperComponent: FC<AwardsSwiperProps> = ({ options }) => {
                 }}
                 modules={[Scrollbar, Navigation, Pagination]}
                 className="awards-swiper"
+                breakpoints={{
+                    1000: {
+                        slidesPerView: 2.5
+                    },
+                    700: {
+                        slidesPerView: 2
+                    },
+                    300: {
+                        slidesPerView: 1
+                    }
+                }}
             >
                 {options.map(awards => (
                     <SwiperSlide key={awards.id} className="awards-slide">
@@ -44,4 +55,4 @@ const AwardsSwiperComponent: FC<AwardsSwiperProps> = ({ options }) => {
     );
 };
 
-export default AwardsSwiperComponent;
+export default Awards;

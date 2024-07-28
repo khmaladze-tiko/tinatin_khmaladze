@@ -4,6 +4,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin: 70px 0;
 }
+@media screen and (max-width: 479px) {
+    .statistic-sec {
+        display: flex;
+        max-width: 460px;
+    }
+}
 .statistic-box {
     margin: 20px;
     padding: 50px;
