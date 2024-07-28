@@ -9,7 +9,7 @@ const FooterTop = () => {
                 <Logo/>
             </div>
             <div>
-                <Language/>
+                <Language extraClass={''}/>
             </div>
             
         </div>

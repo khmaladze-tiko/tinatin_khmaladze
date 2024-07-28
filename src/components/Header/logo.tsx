@@ -3,10 +3,16 @@ import { Icons } from "../Icons";
 
 const Logo = () => {
     return(
+        <>
+        <div className="header__logo">
+            <Icons.tbcIcon/>
+        </div>
+        <div className="header__logo-mobile">
+            <Icons.tbcMini/>
+        </div>
+        </>
         
-            <div className="logo">
-                <Icons.tbcIcon/>
-            </div>
+        
         
     )
 }

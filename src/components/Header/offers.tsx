@@ -8,7 +8,7 @@ const Offers = () => {
         setIsMenuOpen(!isMenuOpen)
     }
     return(
-        <div>
+        <div className="header__menu-item">
             <nav>
                 <ul>
                     <li onClick={toggleMenu}>

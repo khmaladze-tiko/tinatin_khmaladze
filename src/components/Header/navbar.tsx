@@ -7,7 +7,7 @@ import ConceptSpace from "./conceps-space";
 const Navbar = () => {
 
     return(
-        <div className="navbar">
+        <div className="header__menu">
             <Products/>
             <Offers/>
             <ConceptSpace/>

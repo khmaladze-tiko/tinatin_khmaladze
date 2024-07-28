@@ -8,12 +8,15 @@ import Language from "./language";
 const Header = () => {
   return (
     <div className="header">
-      <Logo />
-      <Navbar />
-      <div className="extra">
-        <Search />
-        <Subscribe />
-        <Language />
+      <div className="header__container">
+
+        <Logo />
+        <Navbar />
+        <div className="header__buttons">
+          <Search />
+          <Subscribe />
+          <Language extraClass={'langExtra'}/>
+        </div>
       </div>
     </div>
   );
