@@ -9,7 +9,8 @@ import Search from "./search";
 import TbcIcon from "./tbcIcon";
 import TbcMini from "./tbcIconMini";
 import dropdownArrow from "./dropdownArrow";
-
+import GooglePlay from "./googlePlay";
+import AppStore from "./appStore";
 
 
 export const Icons = {
@@ -23,5 +24,7 @@ export const Icons = {
     location: LocationIcon,
     mail: MailIcon,
     tbcMini: TbcMini,
-    dropdownArrow: dropdownArrow
+    dropdownArrow: dropdownArrow,
+    googlePlay: GooglePlay,
+    appStore: AppStore
 }

@@ -7,6 +7,7 @@ import ConceptSection from "./conceptSection";
 import PackageSection from "./package";
 import StatisticSection from "./statistic";
 import PrivateSection from "./private";
+import DigitalBankSection from "./digitalBank";
 
 
 
@@ -74,6 +75,7 @@ const Main = () => {
       <PackageSection/>
       <StatisticSection/>
       <SwiperComponent options={offers} />
+      <DigitalBankSection/>
       <ProductSwiperComponent options={products} />
       <PrivateSection/>
     </div>
