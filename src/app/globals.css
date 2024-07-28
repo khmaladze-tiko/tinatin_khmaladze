@@ -10,6 +10,7 @@
 @import '../Styles/components/_concept.css';
 @import '../Styles/components/_package.css';
 @import '../Styles/components/_statistic.css';
+@import '../Styles/components/_private.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;

@@ -6,6 +6,7 @@ import { ProductSwiperOption } from "@/Interfaces/productswiper.interface";
 import ConceptSection from "./conceptSection";
 import PackageSection from "./package";
 import StatisticSection from "./statistic";
+import PrivateSection from "./private";
 
 
 
@@ -74,6 +75,7 @@ const Main = () => {
       <StatisticSection/>
       <SwiperComponent options={offers} />
       <ProductSwiperComponent options={products} />
+      <PrivateSection/>
     </div>
   );
 };

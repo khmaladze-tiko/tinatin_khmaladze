@@ -27,7 +27,7 @@
   grid-column-gap: 32px;
   justify-content: flex-start;
   margin-right: auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .header__container,
@@ -193,12 +193,131 @@
   margin-right: 5px;
 }
 
+
+
 @media screen and (max-width: 479px) {
     .arrow {
         margin-top: 0px;
         margin-right: 2px;
     }
       
+}
+
+.header__dropdown {
+  height: 100%;
+  color: #141719;
+  margin-left: 0;
+  margin-right: 0;
+}
+.header__dropdown-bg {
+  z-index: 102;
+  min-height: 248px;
+  background-color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: height .6s ease-in-out;
+  display: none;
+  position: absolute;
+  top: 80px;
+  bottom: auto;
+  left: -50px;
+  right: -50px;
+  z-index: 105;
+}
+
+.header__dropdown-bg.active {
+  display: block;
+}
+
+.header__dropdown-bg-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 200px;
+  height: 200px;
+  left: 25px;
+  position: absolute;
+  z-index: 5;
+}
+
+
+.header__dropdown-mainLink {
+  color: #182cc0;
+   text-transform: uppercase;
+   align-items: center;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 1.4;
+   text-decoration: none;
+   display: flex;
+
+   cursor: pointer;
+ }
+
+.header__dropdown-toggle {
+  height: 100%;
+  align-items: center;
+  padding: 0;
+  display: flex;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.header__dropdown-list {
+  min-width: 200px;
+  grid-row-gap: 16px;
+ pointer-events: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  position: absolute;
+  background: transparent;
+  z-index: 107;
+  
+
+  opacity: 0;
+
+}
+
+.header__dropdown-list.active {
+  opacity: 1;
+  display: flex;
+  pointer-events: initial;
+}
+
+.header__dropdown-text {
+  font-size: 13px;
+  color: #626466;
+}
+
+.header__dropdown-line {
+  width: 100%;
+  height: 2px;
+  transform-style: preserve-3d;
+  background-color: #182cc0;
+  border-radius: 1px;
+  margin-bottom: -1px;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transition: .6s;
+}
+
+.header__dropdown-line.active {
+  transform: scaleX(1);
+}
+
+.header__dropdown-link {
+  font-size: 13px;
+  cursor: pointer;
 }
 
 
