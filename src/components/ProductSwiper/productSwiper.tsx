@@ -15,7 +15,7 @@ type ProductSwiperProps = {
 
 const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
     return (
-        <section className="product-section">
+        <section className="offer-section">
             <h2>Products</h2>
             <Swiper
                 spaceBetween={30}
@@ -25,12 +25,12 @@ const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
                     hide: false,
                 }}
                 modules={[Scrollbar, Navigation, Pagination]}
-                className="product-swiper"
+                className="offer-swiper"
             >
                 {options.map(product => (
-                    <SwiperSlide key={product.id} className="product-slide">
+                    <SwiperSlide key={product.id} className="offer-slide">
                         <img src={product.img} alt={product.title} />
-                        <div className="product-info">
+                        <div className="offer-info">
                             <h3>{product.title}</h3>
                             <p>{product.description}</p>
                         </div>

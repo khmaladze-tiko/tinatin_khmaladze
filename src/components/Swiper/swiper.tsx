@@ -29,7 +29,7 @@ const SwiperComponent: FC<SwiperProps> = ({ options }) => {
             >
                 {options.map(offer => (
                     <SwiperSlide key={offer.id} className="offer-slide">
-                        <img src={offer.img} alt={offer.title} />
+                        <img src={offer.img} alt={offer.title}/>
                         <div className="offer-info">
                             <h3>{offer.title}</h3>
                             <p>{offer.description}</p>

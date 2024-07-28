@@ -8,6 +8,8 @@ import PackageSection from "./package";
 import StatisticSection from "./statistic";
 import PrivateSection from "./private";
 import DigitalBankSection from "./digitalBank";
+import AwardsSwiperComponent from "../AwardsSwiper/awardsSwiper";
+import { AwardsSwiperOption } from "@/Interfaces/awardsswiper.interface";
 
 
 
@@ -67,6 +69,32 @@ const offers: SwiperOption[] = [
     img: "images/swiper5.png", // Replace with actual image path
   },
 ];
+const awards: AwardsSwiperOption[] = [
+  {
+    id: 1,
+    title: "The Best Private Banking Service 2024",
+    description: "The Global Finance",
+    img: "images/globalFinance.png", // Replace with actual image path
+  },
+  {
+    id: 2,
+    title: "The Best Private Banking Experience in Georgia 2023",
+    description: "Euromoney",
+    img: "images/euromoney.png", // Replace with actual image path
+  },
+  {
+    id: 3,
+    title: "The Best Private Banking Service 2024",
+    description: "The Global Finance",
+    img: "images/globalFinance.png", // Replace with actual image path
+  },
+  {
+    id: 4,
+    title: "The Best Private Banking Experience in Georgia 2023",
+    description: "The Banker & PWM",
+    img: "images/theBanker.png", // Replace with actual image path
+  },
+];
 
 const Main = () => {
   return (
@@ -78,6 +106,7 @@ const Main = () => {
       <DigitalBankSection/>
       <ProductSwiperComponent options={products} />
       <PrivateSection/>
+      <AwardsSwiperComponent options={awards} />
     </div>
   );
 };

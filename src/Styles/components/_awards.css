@@ -1,9 +1,14 @@
-.offers-section {
+.awards-section {
     padding: 20px;
     background-color: #f4f4f4;
+    margin-top: 50px;
 }
-
-.offers-swiper .swiper-scrollbar {
+.awards-section h2 {
+    font-size: 24px;
+    color:#000;
+    padding-bottom: 50px;
+}
+.awards-swiper .swiper-scrollbar {
     background: rgba(255, 255, 255, 0.8);
     height: 2px !important;
     background-color: #d1d5d6;
@@ -15,41 +20,54 @@
     right: 0 !important;
 }
 
-.offers-swiper .swiper-scrollbar-drag {
+.awards-swiper .swiper-scrollbar-drag {
     background: blue; /* Color of the draggable scrollbar element */
 }
 
-.offers-swiper .swiper-button-prev,
-.offers-swiper .swiper-button-next {
+.awards-swiper .swiper-button-prev,
+.awards-swiper .swiper-button-next {
     color: #000; /* Color of the navigation buttons */
 }
 
-.offer-slide {
+.awards-slide {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     background: #fff; /* Background color of each slide */
     border-radius: 8px; /* Rounded corners for slides */
-    overflow: hidden; /* Ensures nothing hangs outside the border */
+    overflow: hidden;
+    height: 415px;
+    width: 240px;
+    padding: 20px; /* Ensures nothing hangs outside the border */
 }
 
-.offer-slide img {
-    width: 100%;
+.awards-slide img {
+    width: 118px;
     height: auto; /* Adjust height based on your content */
     object-fit: cover; /* Ensures images cover the slide area */
 }
 
-.offer-info {
+.awards-info {
     padding: 10px;
-    text-align: center;
+    color:#000;
 }
-
-.offer-info h3,
-.offer-info p {
+.awards-info h3 {
+    color:#000;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.awards-info p {
+    padding-top: 20px;
+}
+.awards-info h3,
+.awards-info p {
     margin: 5px 0;
 }
 
 .swiper-horizontal {
     padding: 25px !important;
+}
+.awards-pic {
+    width: 118px;
+    height: 52px;
 }
