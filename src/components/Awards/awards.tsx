@@ -9,17 +9,16 @@ import 'swiper/css/scrollbar';
 import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
 import { SwiperItem } from '@/Interfaces/swiper.interface';
 
-type Awards = {
+type AwardsProps = {
     options: SwiperItem[];
 }
 
-const Awards: FC<Awards> = ({ options }) => {
+const Awards: FC<AwardsProps> = ({ options }) => {
     return (
         <section className="awards-section">
             <h2>Awards</h2>
             <Swiper
                 spaceBetween={30}
-                slidesPerView={3}
                 scrollbar={{
                     draggable: true,
                     hide: false,

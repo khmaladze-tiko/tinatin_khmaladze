@@ -19,7 +19,6 @@ const Offers: FC<OffersProps> = ({ options }) => {
             <h2>Offers</h2>
             <Swiper
                 spaceBetween={30}
-                slidesPerView={3}
                 scrollbar={{
                     draggable: true,
                     hide: false,

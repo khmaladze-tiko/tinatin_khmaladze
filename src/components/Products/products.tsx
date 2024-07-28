@@ -9,17 +9,16 @@ import 'swiper/css/scrollbar';
 import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
 import { SwiperItem } from '@/Interfaces/swiper.interface';
 
-type ProductSwiperProps = {
+type ProductsProps = {
     options: SwiperItem[];
 }
 
-const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
+const Products: FC<ProductsProps> = ({ options }) => {
     return (
         <section className="offer-section">
             <h2>Products</h2>
             <Swiper
                 spaceBetween={30}
-                slidesPerView={3}
                 scrollbar={{
                     draggable: true,
                     hide: false,
@@ -52,4 +51,4 @@ const ProductSwiperComponent: FC<ProductSwiperProps> = ({ options }) => {
     );
 };
 
-export default ProductSwiperComponent;
+export default Products;

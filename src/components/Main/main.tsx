@@ -1,19 +1,17 @@
 import React from "react";
-import { Product } from "@/Interfaces/products.interface";
 import ConceptSection from "./conceptSection";
 import PackageSection from "./package";
 import StatisticSection from "./statistic";
 import PrivateSection from "./private";
 import DigitalBankSection from "./digitalBank";
 import Awards from "../Awards/awards";
-import { Award } from "@/Interfaces/awards.interface";
 import Offers from "../Offers/offers";
 import Products from "../Products/products";
-import { Offer } from "@/Interfaces/offers.interface";
+import { SwiperItem } from "@/Interfaces/swiper.interface";
 
 
 
-const products: Product[] = [
+const products: SwiperItem[] = [
   {
     id: 1,
     title: "Digital",
@@ -37,7 +35,7 @@ const products: Product[] = [
   },
 ];
 
-const offers: Offer[] = [
+const offers: SwiperItem[] = [
   {
     id: 1,
     title: "JAZZ FESTIVAL OFFERS",
@@ -69,7 +67,7 @@ const offers: Offer[] = [
     img: "images/swiper5.png", // Replace with actual image path
   },
 ];
-const awards: Award[] = [
+const awards: SwiperItem[] = [
   {
     id: 1,
     title: "The Best Private Banking Service 2024",
