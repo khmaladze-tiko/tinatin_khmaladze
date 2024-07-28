@@ -5,6 +5,7 @@ import ProductSwiperComponent from "../ProductSwiper/productSwiper";
 import { ProductSwiperOption } from "@/Interfaces/productswiper.interface";
 import ConceptSection from "./conceptSection";
 import PackageSection from "./package";
+import StatisticSection from "./statistic";
 
 
 
@@ -70,6 +71,7 @@ const Main = () => {
     <div className="main">
       <ConceptSection/>
       <PackageSection/>
+      <StatisticSection/>
       <SwiperComponent options={offers} />
       <ProductSwiperComponent options={products} />
     </div>

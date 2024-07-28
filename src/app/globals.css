@@ -9,6 +9,7 @@
 @import '../Styles/components/_productSwiper.css';
 @import '../Styles/components/_concept.css';
 @import '../Styles/components/_package.css';
+@import '../Styles/components/_statistic.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;

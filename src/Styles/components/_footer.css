@@ -26,6 +26,17 @@
     color: #555F62;
 }
 
+.footer-bottom.mob-class {
+    flex-direction: column-reverse;
+    height: 75px;
+    padding: 10px;
+
+}
+
+.footer-bottom.mob-class .privacy-policy-a:nth-child(0) {
+    padding-left: 0;
+}
+
 .footer-nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

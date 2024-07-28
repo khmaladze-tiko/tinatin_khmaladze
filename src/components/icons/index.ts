@@ -8,6 +8,7 @@ import MailIcon from "./mail";
 import Search from "./search";
 import TbcIcon from "./tbcIcon";
 import TbcMini from "./tbcIconMini";
+import dropdownArrow from "./dropdownArrow";
 
 
 
@@ -21,5 +22,6 @@ export const Icons = {
     instagram: InstagramIcon,
     location: LocationIcon,
     mail: MailIcon,
-    tbcMini: TbcMini
+    tbcMini: TbcMini,
+    dropdownArrow: dropdownArrow
 }

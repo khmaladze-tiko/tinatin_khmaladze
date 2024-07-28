@@ -3,9 +3,13 @@ import Logo from "../Header/logo";
 import Language from "../Header/language";
 import { Icons } from "../Icons";
 
-const FooterBottom = () => {
+type FooterBottomProps = {
+    mobileClass?: string;
+}
+
+const FooterBottom: React.FC<FooterBottomProps> = ({ mobileClass = "" }) => {
     return(
-        <div className="footer-bottom">
+        <div className={`footer-bottom ${mobileClass}`}>
            <div className="footer-logo">
                 <Icons.tbcMini/>
                 <p>2024 All rights reserved</p>

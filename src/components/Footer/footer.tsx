@@ -4,12 +4,13 @@ import FooterMain from "./footer-main";
 import FooterBottom from "./footer-bottom";
 
 
+
 const Footer = () => {
     return (
         <div className="footer">
             <FooterTop/>
             <FooterMain/>
-            <FooterBottom/>
+            <FooterBottom mobileClass={''}/>
         </div>
     )
 }
