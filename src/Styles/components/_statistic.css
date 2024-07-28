@@ -1,0 +1,20 @@
+
+.statistic-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 70px 0;
+}
+.statistic-box {
+    margin: 20px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.statistic-box h4{
+    font-size: 38px;
+    color: #000000;
+    text-align: start;
+}
+.statistic-box p {
+    color:#000000;
+    text-align: start;
+}
