@@ -6,6 +6,9 @@
 @import '../Styles/components/_header.css';
 @import '../Styles/components/_footer.css';
 @import '../Styles/components/_swiper.css';
+@import '../Styles/components/_productSwiper.css';
+@import '../Styles/components/_concept.css';
+@import '../Styles/components/_package.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;

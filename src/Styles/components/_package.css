@@ -1,0 +1,67 @@
+.package-sec {
+    padding-top: 60px;
+    height: 614px;
+}
+
+
+
+.package-title {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 36px;
+    color: #141719;
+}
+
+.package-flex {
+    display: flex;
+}
+.package-digital {
+    border-radius:4%;
+    background-image: url('https://static.tbcconcept.ge/mobile/media/mfvvitla.0j5430128849_7213815365374065_9017687812435872577_n.png');
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.package-premium {
+    border-radius:4%;
+    background-image: url('https://static.tbcconcept.ge/mobile/media/0m25n3qt.w03prem.png');
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+.package-last {
+    border-radius:4%;
+    background-image: url('https://static.tbcconcept.ge/mobile/media/nqeaa1rb.avl360.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+.package-content {
+    padding: 40px;
+    justify-content: end;
+}
+.package-content h3 {
+    color: #ffffff;
+    font-size: 34px;
+    font-family: sans-serif;
+    justify-content: end;
+}
+.package-content a {
+    display: flex;
+    color: #ffffff;
+    font-size: 14px;
+}
