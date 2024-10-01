@@ -21,6 +21,12 @@ const DigitalBankSection = () => {
            <div className="digital-img">
             
            </div>
+           <div className="digital-mobile">
+                <h2 className="digital-mobile-title">Digital Bank</h2>
+                <div className="digital-img-mob"></div>
+                <p className="digital-mobile-text">Perform banking transactions remotely via Digital Bank</p>
+                <button className="digital-mobile-button">download</button>
+           </div>
         </div>
     )
 }

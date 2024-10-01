@@ -2,19 +2,24 @@
     padding-top: 60px;
     height: 614px;
 }
-@media screen and (max-width: 479px) {
-    .package-sec {
-        width: 440px;
-    }
-}
-
-
 .package-title {
     font-size: 24px;
     font-family: sans-serif;
     margin-bottom: 36px;
     color: #141719;
 }
+@media screen and (max-width: 479px) {
+    .package-sec {
+        width: 440px;
+    }
+    .package-title {
+        padding: 0 20px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}
+
 
 .package-flex {
     display: flex;

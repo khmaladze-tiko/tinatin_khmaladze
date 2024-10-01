@@ -3,8 +3,23 @@
     margin-top: 100px;
     justify-content: space-between;
 }
+@media screen and (max-width: 479px) {
+    .digital-bank-sec {
+        max-width: 460px;
+        display:flex;
+        padding: 0 20px;
+        justify-content: center;
+        
+    }
+}
 .digital-text {
     align-content: center;
+}
+@media screen and (max-width: 479px) {
+    .digital-text {
+        /* width: 460px; */
+        display: none;
+    }
 }
 .digital-text h2 {
     color: #000000;
@@ -45,4 +60,54 @@
     height: 370px;
     width: 280px;
     justify-content: end;
+}
+@media  screen and (max-width:479px) {
+    .digital-img {
+        display: none;
+    }
+}
+
+.digital-img-mob {
+    background-image: url('https://static.tbcconcept.ge/desktop/media/3sdx4uin.3qibankkk3.png');
+    background-size: cover;
+    height: 370px;
+    width: 280px;
+    justify-content: end;
+}
+.digital-mobile {
+    display: none;
+}
+@media  screen and (max-width:479px) {
+    .digital-mobile {
+        display: block;
+    }
+    .digital-mobile-title {
+        color: #000000;
+        padding: 20px 0;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: start;
+    }
+    .digital-mobile-text {
+        padding: 30px 0;
+    }
+    .digital-mobile-button :hover {
+        background-color: #f9fafa;
+    }
+    .digital-mobile-button {
+        /* grid-column-gap: 4px; */
+        width: 100%;
+        color: #182cc0;
+        text-transform: uppercase;
+        border: 1px solid #182cc0;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.33;
+        text-decoration: none;
+        transition: background-position .25s ease-in-out;
+    }
 }

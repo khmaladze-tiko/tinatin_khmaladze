@@ -34,6 +34,12 @@
 .background-content {
     padding: 80px;
 }
+
+@media screen and (max-width: 479px) {
+    .background-content h3 {
+        color: #001682;
+    }
+}
 .background-content h3 {
     color: #ffffff;
     font-size: 24px;
@@ -88,6 +94,11 @@
 }
 
 @media screen and (max-width: 479px) {
+    .concept-text {
+        padding: 0 20px;
+        font-size: 24px;
+        font-weight: 500;
+    }
     .concept-text h2 {
     font-size: 26px;
     padding-left: 5px;

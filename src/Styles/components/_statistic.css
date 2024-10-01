@@ -6,14 +6,21 @@
 }
 @media screen and (max-width: 479px) {
     .statistic-sec {
-        display: flex;
+        grid-template-columns: 1fr;
         max-width: 460px;
+        
     }
 }
 .statistic-box {
     margin: 20px;
     padding: 50px;
     background-color: #ffffff;
+}
+@media screen and (max-width: 479px) {
+    .statistic-box{
+        background-color: #ffffff;
+        max-width: 450px;
+    }
 }
 .statistic-box h4{
     font-size: 38px;
