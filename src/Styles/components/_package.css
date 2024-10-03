@@ -8,30 +8,9 @@
     margin-bottom: 36px;
     color: #141719;
 }
-@media screen and (max-width: 479px) {
-    .package-sec {
-        width: 440px;
-    }
-    .package-title {
-        padding: 0 20px;
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-}
-
-
 .package-flex {
     display: flex;
 }
-@media screen and (max-width: 479px) {
-    .package-flex {
-        max-width: 440px;
-        display: flex;
-    }
-}
-
-
 .package-digital {
     border-radius:4%;
     background-image: url('https://static.tbcconcept.ge/mobile/media/mfvvitla.0j5430128849_7213815365374065_9017687812435872577_n.png');
@@ -42,13 +21,6 @@
     align-items: center;
     justify-content: center;
     margin: 10px 10px;
-}
-
-@media screen and (max-width: 479px) {
-    .package-digital {
-        height: 210px;
-        width: 440px;
-    }
 }
 
 .package-premium {
@@ -63,12 +35,6 @@
     margin: 30px 10px;
 }
 
-@media screen and (max-width: 479px) {
-    .package-premium {
-        height: 210px;
-        width: 440px;
-    }
-}
 .package-last {
     border-radius:4%;
     background-image: url('https://static.tbcconcept.ge/mobile/media/nqeaa1rb.avl360.png');
@@ -81,6 +47,27 @@
     margin: 10px 20px;
 }
 @media screen and (max-width: 479px) {
+    .package-sec {
+        width: 440px;
+    }
+    .package-title {
+        padding: 0 20px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .package-flex {
+        max-width: 440px;
+        display: flex;
+    }
+    .package-digital {
+        height: 210px;
+        width: 440px;
+    }
+    .package-premium {
+        height: 210px;
+        width: 440px;
+    }
     .package-last {
         height: 210px;
         width: 440px;

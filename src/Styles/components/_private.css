@@ -58,6 +58,24 @@
     .private-sec {
         width: 460px;
     }
+    .private-page-title {
+        display: none;
+    }
+    .private-text {
+        display: none;
+    }
+    .background-content {
+        padding: 180px 20px;
+        justify-content: end;
+    }
+    .background-content h3 {
+        font-size: 16px;
+        letter-spacing: 800;
+        font-weight: 700;
+    }
+    .background-button {
+        width: 100%;
+    }
 }
 .private-sec h2 {
     padding-bottom: 50px;

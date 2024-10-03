@@ -71,3 +71,10 @@
     width: 118px;
     height: 52px;
 }
+
+
+@media screen and (max-width: 479px) {
+    .awards-section h2 {
+        display: none;
+    }
+}

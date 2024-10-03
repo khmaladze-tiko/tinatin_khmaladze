@@ -8,7 +8,7 @@ import { Icons } from "../Icons";
 const PrivateSection = () => {
     return(
         <div className="private-sec">
-            <h2>Home Page</h2>
+            <h2 className="private-page-title">Home Page</h2>
             <div className="background-img-private">
                 <div className="background-content">
                     <h3>Private Banker</h3>
