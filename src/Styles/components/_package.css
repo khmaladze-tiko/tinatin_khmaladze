@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 479px) {
     .package-sec {
-        width: 440px;
+        max-width: 440px;
     }
     .package-title {
         padding: 0 20px;
@@ -56,22 +56,27 @@
         font-weight: 600;
         margin-bottom: 10px;
     }
-    .package-flex {
-        max-width: 440px;
+    .package-cards {
         display: flex;
+    }
+    .package-flex {
+        display: flex;
+        max-width: 440px;
     }
     .package-digital {
         height: 210px;
-        width: 440px;
+        width: 280px;
     }
     .package-premium {
         height: 210px;
-        width: 440px;
+        width: 280px;
+        margin: 10px 10px;
     }
     .package-last {
         height: 210px;
-        width: 440px;
-        display: none;
+        width: 280px;
+        margin: 10px 10px;
+        /* display: none; */
     }
 }
 .package-content {

@@ -167,3 +167,15 @@
     padding-top: 3px;
     padding-right: 4px;
 }
+@media screen and (max-width: 479px) {
+    .footer-top {
+        display: none;
+    }
+    .footer-nav {
+        display: none;
+    }
+    .footer-bottom {
+        display: none;
+    }
+    
+}

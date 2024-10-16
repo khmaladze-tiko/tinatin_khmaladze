@@ -35,6 +35,7 @@ const products: SwiperItem[] = [
   },
 ];
 
+
 const offers: SwiperItem[] = [
   {
     id: 1,

@@ -1,8 +1,20 @@
-import React from "react";
+'use client';
+import React, { FC } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import { Scrollbar, Navigation, Pagination } from 'swiper/modules';
+import { SwiperItem } from '@/Interfaces/swiper.interface';
 import { Icons } from "../Icons";
+
+
 
 const PackageSection = () => {
   return (
+
     <div className="package-sec">
       <div className="package-title">
         <h2>Select a Package</h2>
