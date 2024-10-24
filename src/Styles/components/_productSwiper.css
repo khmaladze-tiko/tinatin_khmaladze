@@ -65,3 +65,14 @@
         color:#000;
     }
 }
+
+@media screen and (max-width: 990px) {
+   
+    .offer-section h2 {
+        padding-left: 25px;
+        padding-top: 50px;
+        font-size: 24px;
+        color:#000;
+        font-weight: 800;
+    }
+}

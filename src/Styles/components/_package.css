@@ -95,3 +95,20 @@
     color: #ffffff;
     font-size: 14px;
 }
+
+
+@media screen and (max-width: 990px) {
+    .package-sec {
+        max-width: 950px;
+        padding: 0 45px;
+    }
+    .package-flex {
+        display: flex;
+    }
+    .package-digital {
+        width: 410px;
+    }
+    .package-premium {
+        width: 410px;
+    }
+}

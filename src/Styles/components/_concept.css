@@ -92,6 +92,13 @@
     }
 }
 
+@media screen and (max-width: 990px) {
+    .concept-sec {
+        max-width: 950px;
+        padding: 0 45px;
+    }
+}
+
 
 
 

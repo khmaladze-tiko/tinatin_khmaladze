@@ -179,3 +179,24 @@
     }
     
 }
+
+@media screen and (max-width: 990px) {
+    .footer-top {
+        max-width: 970px;
+        padding: 0 45px;
+        padding-top: 50px;
+    }
+    .footer-nav {
+        max-width: 970px;
+        padding: 0 45px;
+        padding-top: 30px;
+    }
+    .footer-bottom {
+        max-width: 970px;
+        padding: 0 45px;
+        padding-top: 30px;
+    }
+    .footer__menu-mobile {
+        display: none;
+    }
+}

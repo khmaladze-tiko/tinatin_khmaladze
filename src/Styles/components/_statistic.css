@@ -29,3 +29,15 @@
     color:#000000;
     text-align: start;
 }
+
+@media screen and (max-width: 990px) {
+    .statistic-sec {
+        grid-template-columns: 1fr;
+        max-width: 950px;
+        
+    }
+    .statistic-box{
+        background-color: #ffffff;
+        max-width: 940px;
+    }
+}
